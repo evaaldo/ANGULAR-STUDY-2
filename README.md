@@ -1,4 +1,4 @@
-# EasyTask
+# Investments Calculator
 
 **br:** Este projeto está sendo desenvolvido como um meio de aprender mais sobre Angular e aprofundar meus conhecimentos nos conceitos básicos.  
 **en:** This project is being developed as a way to learn more about Angular and deepen my understanding of its basic concepts.
