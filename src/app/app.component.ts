@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { UserInputComponent } from "./user-input/user-input.component";
+import { IInvestment } from './investment.model';
 
 @Component({
   selector: 'app-root',
@@ -13,12 +14,7 @@ import { UserInputComponent } from "./user-input/user-input.component";
 export class AppComponent {
   title = 'INVESTMENTS-CALCULATOR';
 
-  onCalculateInvestmentResults(data: {
-    initialInvestment: number,
-    annualInvestment: number,
-    expectedReturn: number,
-    duration: number
-  }) {
+  onCalculateInvestmentResults(data: IInvestment) {
       const { initialInvestment, annualInvestment, expectedReturn, duration } = data;
       const annualData = [];
       let investmentValue = initialInvestment;
